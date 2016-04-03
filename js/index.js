@@ -18,7 +18,7 @@ $(document).ready(function() {
       $(".circle p").css("opacity", "1");
       
       $(".twitter-share-button").attr(
-        "href", "https://twitter.com/intent/tweet?hashtags=factOnNorris&text=" + text + "&url=http://www.icndb.com"
+        "href", "https://twitter.com/intent/tweet?hashtags=factsOnNorris&text=" + text + "&url=http://www.icndb.com"
       );
       
       var btnText = ["YEAAH!!", "MORE?!", "DO IT!!!", "PRESS ME!"];
