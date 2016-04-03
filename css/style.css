@@ -82,7 +82,7 @@ footer {
   -webkit-transition: opacity .3s;
   transition: opacity .3s;
 }
-#quote {
+#quote, .twitter-btn {
   opacity: 0;
 }
 .signature {
