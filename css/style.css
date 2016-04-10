@@ -15,8 +15,12 @@ body {
   width: 50px;
   height: 50px;
 }
-.twitter-btn img {
-  padding: 9px;
+.fa-twitter {
+  color: #FFF;
+  position: relative;
+  font-size: 1.5em;
+  top: 0.4em;
+  left: 0.4em;
 }
 .circle:hover {
   border-color: #c51c1c;
@@ -46,7 +50,6 @@ blockquote p {
   padding-right: 20px;
   display: inline-block;
   font-size: 148%;
-  font-style: italic;
 }
 .big {
   font-size: 590%;
@@ -62,16 +65,15 @@ a {
 footer {
   padding-right: 20px;
 }
-@media(max-width:350px){
+@media(max-width:550px){
   .main {
-    font-size: 120%;
+    font-size: 110%;
     padding-right: 10px;
   }
   .big {
-    font-size: 300%;
-    bottom: 115px;
+    display: none;
   }
-  a {
+  footer a {
     font-size: 100%;
   }
   footer {
